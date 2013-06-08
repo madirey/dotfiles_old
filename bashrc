@@ -87,11 +87,6 @@ if [ -f /usr/bin/xclip ]; then
     alias xclip='/usr/bin/xclip -sel c'
 fi
 
-# git aliases
-if [ -x ~/bin/hub ]; then
-    alias git=hub
-fi
-
 # reload .bashrc
 alias refresh='. ~/.bashrc'
 
